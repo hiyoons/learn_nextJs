@@ -1,0 +1,27 @@
+.container {
+  background-color: rgb(133, 133, 133);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.container p {
+  opacity: 0.7;
+}
+.container p:hover {
+  color: white;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.moviedomie {
+  background-color: rgb(133, 133, 133);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+}
