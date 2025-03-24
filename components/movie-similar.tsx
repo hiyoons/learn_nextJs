@@ -15,9 +15,9 @@ export default async function MovieSimilar({ id }: { id: string }) {
 
             {
                 movies.map((movie) => (
-                    <div className={styles.moviedomie}>
-                        <p key={movie.id}>{movie.title}</p>
-                    </div>
+
+                    <p key={movie.id}>{movie.title}</p>
+
                 ))
             }
 

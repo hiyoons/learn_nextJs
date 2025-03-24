@@ -1,4 +1,4 @@
-import { API_URL } from "../app/(home)/page";
+import { API_URL } from "../app/(home)/contant";
 import styles from '../app/styles/movie-info.module.css';
 import MovieSimilar from "./movie-similar";
 
